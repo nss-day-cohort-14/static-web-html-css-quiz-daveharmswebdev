@@ -1,0 +1,92 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+	font-family: Tahoma;
+}
+
+article {
+	border: 1px solid lightblue;
+}
+
+p {
+	font-size: 14px;
+}
+
+.card {
+	width: 30%;
+	margin: 16px 1%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.card > header {
+	text-align: center;
+	height: 48px;
+	border: 1px dotted lightgrey;
+}
+
+.title {
+	margin: 10px;
+}
+
+img {
+	height: 144px;
+	margin: 16px;
+}
+
+.img {
+	text-align: center;
+}
+
+.description {
+	margin: 0 16px;
+	line-height: 20px;
+	height: 120px;
+	text-align: justify;
+}
+
+.description--lead {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.availability {
+	text-align: center;
+	margin: 16px 0 0 0;
+	padding: 4px 0;
+	background-color: darkgrey;
+	color: yellow;
+}
+
+.specs {
+	margin: 0 16px;
+}
+
+.specs h2, .price header h2 {
+	margin: 8px 0;
+}
+
+.specs--data, .invalidDate--data, .price--data {
+	margin: 8px 0;
+	font-size: 12px;
+}
+
+.specs--data, .price--data {
+	font-weight: bold;
+}
+
+.price {
+	margin: 0 16px;
+}
+
+.price header {
+	text-align: left;
+}
+
+
+
+
