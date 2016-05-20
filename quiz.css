@@ -67,12 +67,16 @@ img {
 }
 
 .specs h2, .price header h2 {
-	margin: 6px 0;
+	margin: 8px 0;
 }
 
 .specs--data, .invalidDate--data, .price--data {
 	margin: 8px 0;
 	font-size: 12px;
+}
+
+.specs--data, .price--data {
+	font-weight: bold;
 }
 
 .price {
