@@ -1,5 +1,19 @@
-article, section {
-	border: 1px dotted;
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+	font-family: Tahoma;
+}
+
+article {
+	border: 1px solid lightblue;
+}
+
+p {
+	font-size: 14px;
 }
 
 .card {
@@ -10,10 +24,17 @@ article, section {
 
 .card header {
 	text-align: center;
+	height: 48px;
+	border: 1px dotted lightgrey;
+}
+
+.title {
+	margin: 10px;
 }
 
 img {
 	height: 144px;
+	margin: 16px;
 }
 
 .img {
@@ -21,10 +42,15 @@ img {
 }
 
 .description {
-
+	margin: 0 12px;
+	line-height: 20px;
 }
 
 .description--lead {
 	font-weight: bold;
 	font-size: 24px;
+}
+
+.availability {
+	text-align: center;
 }
