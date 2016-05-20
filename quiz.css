@@ -18,11 +18,12 @@ p {
 
 .card {
 	width: 30%;
+	margin: 16px 1%;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.card header {
+.card > header {
 	text-align: center;
 	height: 48px;
 	border: 1px dotted lightgrey;
@@ -42,9 +43,10 @@ img {
 }
 
 .description {
-	margin: 0 12px;
+	margin: 0 16px;
 	line-height: 20px;
-	height: 240px;
+	height: 120px;
+	text-align: justify;
 }
 
 .description--lead {
@@ -54,8 +56,33 @@ img {
 
 .availability {
 	text-align: center;
-	margin: 16px 0;
+	margin: 16px 0 0 0;
 	padding: 4px 0;
 	background-color: darkgrey;
 	color: yellow;
 }
+
+.specs {
+	margin: 0 16px;
+}
+
+.specs h2, .price header h2 {
+	margin: 6px 0;
+}
+
+.specs--data, .invalidDate--data, .price--data {
+	margin: 8px 0;
+	font-size: 12px;
+}
+
+.price {
+	margin: 0 16px;
+}
+
+.price header {
+	text-align: left;
+}
+
+
+
+
