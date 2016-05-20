@@ -1,3 +1,30 @@
-article {
+article, section {
 	border: 1px dotted;
+}
+
+.card {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.card header {
+	text-align: center;
+}
+
+img {
+	height: 144px;
+}
+
+.img {
+	text-align: center;
+}
+
+.description {
+
+}
+
+.description--lead {
+	font-weight: bold;
+	font-size: 24px;
 }
