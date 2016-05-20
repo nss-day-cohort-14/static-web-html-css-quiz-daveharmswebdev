@@ -44,6 +44,7 @@ img {
 .description {
 	margin: 0 12px;
 	line-height: 20px;
+	height: 240px;
 }
 
 .description--lead {
@@ -53,4 +54,8 @@ img {
 
 .availability {
 	text-align: center;
+	margin: 16px 0;
+	padding: 4px 0;
+	background-color: darkgrey;
+	color: yellow;
 }
